@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>文档编写规范</title>
+      <link href="/2022/07/03/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83/"/>
+      <url>/2022/07/03/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># Post Front-matter 用于文章页配置</span><br><span class="line">title:【必需】文章标题</span><br><span class="line">date:【必需】文章创建日期</span><br><span class="line">updated:【可选】文章更新日期</span><br><span class="line">tags:【可选】文章标签</span><br><span class="line">categories:【可选】文章分类</span><br><span class="line">keywords:【可选】文章关键字</span><br><span class="line">description:【可选】文章描述</span><br><span class="line">top_img:【可选】文章顶部图片</span><br><span class="line">cover:【可选】文章缩略图(如果没有设置top_img,文章页面顶部将展示缩略图，可设为false/圖片地址/留空)</span><br><span class="line">comments:【可选】开启评论功能(默认 true)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具使用 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux 常用命令</title>
       <link href="/2022/07/02/Linux%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
       <url>/2022/07/02/Linux%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
