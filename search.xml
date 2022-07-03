@@ -4,6 +4,106 @@
   
     
     <entry>
+      <title>markdown 基本语法</title>
+      <link href="/2022/07/03/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+      <url>/2022/07/03/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h3 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure><h3 id="二、-字体"><a href="#二、-字体" class="headerlink" title="二、**字体 **"></a>二、**字体 **</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*`</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure><blockquote><p>引用</p></blockquote><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br></pre></td></tr></table></figure><hr><h3 id="三、分割线"><a href="#三、分割线" class="headerlink" title="三、分割线"></a>三、分割线</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">三个或者三个以上的 - 或者 * 都可以</span><br><span class="line">---</span><br><span class="line">----</span><br><span class="line">***</span><br><span class="line">****</span><br></pre></td></tr></table></figure><h3 id="四、图片"><a href="#四、图片" class="headerlink" title="四、图片"></a>四、图片</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">![图片alt](图片地址 <span class="string">&#x27;&#x27;</span>图片title<span class="string">&#x27;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">图片alt就是显示在图片下面的文字，相当于对图片内容的解释。</span><br><span class="line">图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</span><br></pre></td></tr></table></figure><h3 id="五、超链接"><a href="#五、超链接" class="headerlink" title="五、超链接"></a>五、超链接</h3><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[超链接名](超链接地址 <span class="string">&quot;超链接title&quot;</span>)</span><br><span class="line">title可加可不加</span><br></pre></td></tr></table></figure><h3 id="六、列表"><a href="#六、列表" class="headerlink" title="六、列表"></a>六、列表</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">无序列表用 - + * 任何一种都可以</span><br><span class="line">- 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line">注意：- + * 跟内容之间都要有一个空格</span><br><span class="line"></span><br><span class="line">有序列表 数字加点</span><br><span class="line">1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line"></span><br><span class="line">注意：序号跟内容之间要有空格</span><br><span class="line"></span><br><span class="line">列表嵌套</span><br><span class="line">上一级和下一级之间敲三个空格即可</span><br></pre></td></tr></table></figure><ol><li><p>你好   </p><ul><li>你好</li></ul><ul><li>你好</li></ul></li></ol><h3 id="七、表格"><a href="#七、表格" class="headerlink" title="七、表格"></a>七、表格</h3><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">表头|<span class="params">表头</span>|表头</span><br><span class="line">---|<span class="params">:--:</span>|---:</span><br><span class="line">内容|<span class="params">内容</span>|内容</span><br><span class="line">内容|<span class="params">内容</span>|内容</span><br><span class="line"></span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">- 有一个就行，为了对齐，多加了几个</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中</span><br><span class="line">-右边加：表示文字居右</span><br><span class="line">注：原生的语法两边都要用 |<span class="params"> 包起来。此处省略</span></span><br></pre></td></tr></table></figure><h3 id="八、代码引用"><a href="#八、代码引用" class="headerlink" title="八、代码引用"></a>八、代码引用</h3><p>单行代码：代码之间分别用一个反引号包起来</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`代码内容`</span><br></pre></td></tr></table></figure><p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">    代码内容</span><br><span class="line">```</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具使用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>响应状态码</title>
+      <link href="/2022/07/03/%E5%93%8D%E5%BA%94%E7%8A%B6%E6%80%81%E7%A0%81/"/>
+      <url>/2022/07/03/%E5%93%8D%E5%BA%94%E7%8A%B6%E6%80%81%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、状态码大类"><a href="#一、状态码大类" class="headerlink" title="一、状态码大类"></a>一、状态码大类</h2><table><thead><tr><th>状态码分类</th><th>说明</th></tr></thead><tbody><tr><td>1xx</td><td><strong>响应中</strong>——临时状态码，表示请求已经接受，告诉客户端应该继续请求或者如果它已经完成则忽略它</td></tr><tr><td>2xx</td><td><strong>成功</strong>——表示请求已经被成功接收，处理已完成</td></tr><tr><td>3xx</td><td><strong>重定向</strong>——重定向到其它地方：它让客户端再发起一个请求以完成整个处理。</td></tr><tr><td>4xx</td><td><strong>客户端错误</strong>——处理发生错误，责任在客户端，如：客户端的请求一个不存在的资源，客户端未被授权，禁止访问等</td></tr><tr><td>5xx</td><td><strong>服务器端错误</strong>——处理发生错误，责任在服务端，如：服务端抛出异常，路由出错，HTTP版本不支持等</td></tr></tbody></table><p>状态码大全：<a href="https://cloud.tencent.com/developer/chapter/13553">https://cloud.tencent.com/developer/chapter/13553</a> </p><h2 id="二、常见的响应状态码"><a href="#二、常见的响应状态码" class="headerlink" title="二、常见的响应状态码"></a>二、常见的响应状态码</h2><table><thead><tr><th>状态码</th><th>英文描述</th><th>解释</th></tr></thead><tbody><tr><td>200</td><td><strong><code>OK</code></strong></td><td>客户端请求成功，即<strong>处理成功</strong>，这是我们最想看到的状态码</td></tr><tr><td>302</td><td><strong><code>Found</code></strong></td><td>指示所请求的资源已移动到由<code>Location</code>响应头给定的 URL，浏览器会自动重新访问到这个页面</td></tr><tr><td>304</td><td><strong><code>Not Modified</code></strong></td><td>告诉客户端，你请求的资源至上次取得后，服务端并未更改，你直接用你本地缓存吧。隐式重定向</td></tr><tr><td>400</td><td><strong><code>Bad Request</code></strong></td><td>客户端请求有<strong>语法错误</strong>，不能被服务器所理解</td></tr><tr><td>403</td><td><strong><code>Forbidden</code></strong></td><td>服务器收到请求，但是<strong>拒绝提供服务</strong>，比如：没有权限访问相关资源</td></tr><tr><td>404</td><td><strong><code>Not Found</code></strong></td><td><strong>请求资源不存在</strong>，一般是URL输入有误，或者网站资源被删除了</td></tr><tr><td>428</td><td><strong><code>Precondition Required</code></strong></td><td><strong>服务器要求有条件的请求</strong>，告诉客户端要想访问该资源，必须携带特定的请求头</td></tr><tr><td>429</td><td><strong><code>Too Many Requests</code></strong></td><td><strong>太多请求</strong>，可以限制客户端请求某个资源的数量，配合 Retry-After(多长时间后可以请求)响应头一起使用</td></tr><tr><td>431</td><td><strong><code> Request Header Fields Too Large</code></strong></td><td><strong>请求头太大</strong>，服务器不愿意处理请求，因为它的头部字段太大。请求可以在减少请求头域的大小后重新提交。</td></tr><tr><td>405</td><td><strong><code>Method Not Allowed</code></strong></td><td>请求方式有误，比如应该用GET请求方式的资源，用了POST</td></tr><tr><td>500</td><td><strong><code>Internal Server Error</code></strong></td><td><strong>服务器发生不可预期的错误</strong>。服务器出异常了，赶紧看日志去吧</td></tr><tr><td>503</td><td><strong><code>Service Unavailable</code></strong></td><td><strong>服务器尚未准备好处理请求</strong>，服务器刚刚启动，还未初始化好</td></tr><tr><td>511</td><td><strong><code>Network Authentication Required</code></strong></td><td><strong>客户端需要进行身份验证才能获得网络访问权限</strong></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 状态码 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaScript 深拷贝</title>
+      <link href="/2022/07/03/js%E6%B7%B1%E6%8B%B7%E8%B4%9D/"/>
+      <url>/2022/07/03/js%E6%B7%B1%E6%8B%B7%E8%B4%9D/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> newData=<span class="title class_">JSON</span>.<span class="title function_">parse</span>(<span class="title class_">JSON</span>.<span class="title function_">stringify</span>(<span class="variable language_">this</span>.<span class="property">data</span>))</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 深拷贝 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Axios 基本使用</title>
+      <link href="/2022/07/03/Axios%20/"/>
+      <url>/2022/07/03/Axios%20/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Axios-post-请求-get-请求"><a href="#Axios-post-请求-get-请求" class="headerlink" title="Axios  post 请求  get 请求"></a>Axios  post 请求  get 请求</h2><ol><li><p>get请求  <code>axios(url[, config])</code> </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 发起一个 GET 请求 (默认请求方式)</span></span><br><span class="line"><span class="title function_">axios</span>(<span class="string">&#x27;/user/123&#x27;</span>).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params">resp</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(resp.<span class="property">data</span>)</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 一般方式 </span></span><br><span class="line"><span class="title function_">axios</span>(&#123;</span><br><span class="line">    <span class="attr">method</span>:<span class="string">&quot;get&quot;</span>,</span><br><span class="line">    <span class="attr">url</span>:<span class="string">&quot;/user/123?username=zhangsan&quot;</span></span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params">resp</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(resp.<span class="property">data</span>)</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></li><li><p>post请求</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 发起一个post请求</span></span><br><span class="line"><span class="title function_">axios</span>(&#123;</span><br><span class="line">  <span class="attr">method</span>: <span class="string">&#x27;post&#x27;</span>,</span><br><span class="line">  <span class="attr">url</span>: <span class="string">&#x27;/user/123&#x27;</span>,</span><br><span class="line">  <span class="attr">data</span>: <span class="string">&quot;username=zhangsan&quot;</span></span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params">resp</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(resp.<span class="property">data</span>)</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></li></ol><p>​    3. 请求方式别名</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">axios.<span class="title function_">get</span>(<span class="string">&quot;url&quot;</span>) <span class="comment">// get直接就axios(&#x27;url&#x27;)就可以了</span></span><br><span class="line">axios.<span class="title function_">post</span>(<span class="string">&quot;url&quot;</span>,<span class="string">&quot;参数&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ajax异步 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>文档编写规范</title>
       <link href="/2022/07/03/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83/"/>
       <url>/2022/07/03/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83/</url>
